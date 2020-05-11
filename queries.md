@@ -4,9 +4,10 @@
 
 ### 1. All the companies whose name match 'Babelgum'. Retrieve only their `name` field.
 
+db.companies.find({name:"Babelgum"}, {name:1)
+
 <!-- Your Code Goes Here -->
-{name: "Babelgum"}
-{name: 1, _id: 0}
+db.companies.find({name:"Babelgum"}, {name:1)
 
 ### 2. All the companies that have more than 5000 employees. Limit the search to 20 companies and sort them by **number of employees**.
 
